@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Dashboard from '../Dashboard/Dashboard';
-import Login from '../Login/Login';
-import Preferences from '../Preferences/Preferences';
+import Dashboard from '../Dashboard';
+import Login from '../Login/Login.js';
+import Preferences from '../Preferences';
 
 function App() {
   const [token, setToken] = useState(); 
